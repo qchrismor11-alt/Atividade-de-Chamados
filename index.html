@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Chamados</title>
+    <script defer src="chamados.js"></script>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <h1>Simulação de Chamados</h1>
+
+    <div class="filtros">
+
+        <input type="text" id="pesquisa" placeholder="Filtros de pesquisa">
+
+        <select id="filtro-prioridade">
+            <option value="">All
+
+            </option>
+            <option value="Baixa">Low</option>
+            <option value="Média">Medium</option>
+            <option value="Alta">High</option>
+            <option value="Crítica">Critical</option>
+        </select>
+
+        <select id="filtro-status">
+            <option value="">All</option>
+            <option value="Aberto">Open</option>
+            <option value="Em progresso">In Progress</option>
+            <option value="Fechado">Closed</option>
+        </select>
+
+    </div>
+
+    <div id="lista-chamados"></div>
+
+</body>
+
+</html>

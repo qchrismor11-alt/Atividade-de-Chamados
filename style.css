@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 25px;
+}
+
+h1 {
+  margin-bottom: 25px;
+}
+
+.filtros {
+  display: flex;
+  gap: 13px;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+}
+
+.filtros input,
+.filtros select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.filtros input {
+  width: 350px;
+}
+
+#lista-chamados {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background-color: rgb(211, 209, 209);
+  padding: 20px;
+  border: 1px solid #4e4d4d;
+}
+
+.card h2 {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.card p {
+  margin-bottom: 8px;
+}
+
+.prioridade {
+  font-weight: bold;
+}
+
+.critica {
+  color: #360269;
+}
+
+.alta {
+  color: #ff0d0d;
+}
+
+.media {
+  color: #a07706;
+}
+
+.baixa {
+  color: #21aa28;
+}
+
+.sem-resultados {
+  font-size: 18px;
+  color: #666;
+}
